@@ -10,6 +10,9 @@
     "test:unit": "vitest run",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "*.{vue,ts}": "npm run lint"
+  },
   "devDependencies": {
     "@nuxt/test-utils-edge": "^3.0.0-rc.5-27630352.df04a66",
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
@@ -21,6 +24,7 @@
     "eslint-plugin-nuxt": "^3.2.0",
     "husky": "^8.0.1",
     "jsdom": "^20.0.0",
+    "lint-staged": "^13.0.3",
     "nuxt": "3.0.0-rc.5",
     "postcss": "^8.4.14",
     "sass": "^1.53.0",
