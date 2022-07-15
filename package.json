@@ -7,7 +7,7 @@
     "preview": "nuxt preview",
     "typecheck": "npx nuxi typecheck",
     "lint": "npm run typecheck && eslint . --ext .ts,.vue",
-    "test:unit": "vitest",
+    "test:unit": "vitest run",
     "prepare": "husky install"
   },
   "devDependencies": {
