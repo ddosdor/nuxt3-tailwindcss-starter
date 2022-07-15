@@ -1,5 +1,3 @@
 <template>
-  <div>
-    Dupa
-  </div>
+  <HelloNuxt />
 </template>

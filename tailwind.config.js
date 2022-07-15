@@ -6,9 +6,9 @@ module.exports = {
   content: [],
   theme: {
     fontFamily: {
-      sans: ['Inter', ...defaultTheme.fontFamily.sans],
+      sans: ['Inter', ...defaultTheme.fontFamily.sans]
     },
-    extend: {},
+    extend: {}
   },
-  plugins: [],
+  plugins: []
 }
