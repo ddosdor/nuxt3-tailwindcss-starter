@@ -13,6 +13,6 @@ describe('components:HelloNuxt', () => {
   })
 
   it('Should contains text', () => {
-    expect(component.getByTestId('welcome-nuxt').textContent).toBe('Welcome to Nuxt 3 Starter')
+    expect(component.getByTestId('welcome-nuxt')).toHaveTextContent('Welcome to Nuxt 3 Starter')
   })
 })
