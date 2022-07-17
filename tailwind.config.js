@@ -1,14 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-
-const defaultTheme = require('tailwindcss/defaultTheme')
+const starterConfig = require('./starter.tailwind.config')
 
 module.exports = {
   content: [],
-  theme: {
-    fontFamily: {
-      sans: ['Inter', ...defaultTheme.fontFamily.sans]
-    },
-    extend: {}
-  },
-  plugins: []
+  theme: {},
+  plugins: [],
+  ...starterConfig
 }

@@ -42,7 +42,8 @@ module.exports = {
         png: 'never',
         svg: 'always'
       }
-    ]
+    ],
+    'vue/multi-word-component-names': [0]
     // 'vue/max-attributes-per-line': ['error', {
     //   singleline: 1,
     //   multiline: {
